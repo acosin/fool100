@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIViewEx.h
 //  fool100
 //
 //  Created by  on 9/20/17.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *button;
-
+@interface UIViewEx : UIView
 
 @end
-

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "wViewController.h"
 
 @interface ViewController ()
+- (IBAction)ouTouchUpOutside:(id)sender;
+- (IBAction)ontouchdown:(id)sender;
 
 @end
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view becomeFirstResponder];
 }
 
 
@@ -26,4 +30,17 @@
 }
 
 
+- (IBAction)ouTouchUpOutside:(id)sender {
+   BOOL ret = [self.view becomeFirstResponder];
+    NSLog(@"ret = %d", ret);
+}
+
+- (IBAction)ontouchdown:(id)sender {
+//    BOOL ret = [self.view becomeFirstResponder];
+//    NSLog(@"ret = %d", ret);
+    wViewController *wvc = [[wViewController alloc] initWithNibName:@"wViewController" bundle:nil];
+    [self presentViewController:wvc animated:YES completion:^{
+        
+    }];
+}
 @end
