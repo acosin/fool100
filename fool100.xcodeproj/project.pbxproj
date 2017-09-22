@@ -18,6 +18,9 @@
 		A665B1F41F726A6E009BFF35 /* UIViewEx.m in Sources */ = {isa = PBXBuildFile; fileRef = A665B1F31F726A6E009BFF35 /* UIViewEx.m */; };
 		A665B1F81F726C89009BFF35 /* wViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A665B1F61F726C89009BFF35 /* wViewController.m */; };
 		A665B1F91F726C89009BFF35 /* wViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A665B1F71F726C89009BFF35 /* wViewController.xib */; };
+		A665B1FD1F727BA3009BFF35 /* wkWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A665B1FB1F727BA3009BFF35 /* wkWebviewViewController.m */; };
+		A665B1FE1F727BA3009BFF35 /* wkWebviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A665B1FC1F727BA3009BFF35 /* wkWebviewViewController.xib */; };
+		A665B2011F727FEE009BFF35 /* WKWebViewEx.m in Sources */ = {isa = PBXBuildFile; fileRef = A665B2001F727FEE009BFF35 /* WKWebViewEx.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,11 @@
 		A665B1F51F726C89009BFF35 /* wViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wViewController.h; sourceTree = "<group>"; };
 		A665B1F61F726C89009BFF35 /* wViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wViewController.m; sourceTree = "<group>"; };
 		A665B1F71F726C89009BFF35 /* wViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wViewController.xib; sourceTree = "<group>"; };
+		A665B1FA1F727BA3009BFF35 /* wkWebviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wkWebviewViewController.h; sourceTree = "<group>"; };
+		A665B1FB1F727BA3009BFF35 /* wkWebviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wkWebviewViewController.m; sourceTree = "<group>"; };
+		A665B1FC1F727BA3009BFF35 /* wkWebviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wkWebviewViewController.xib; sourceTree = "<group>"; };
+		A665B1FF1F727FEE009BFF35 /* WKWebViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewEx.h; sourceTree = "<group>"; };
+		A665B2001F727FEE009BFF35 /* WKWebViewEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewEx.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +130,12 @@
 				A665B1BF1F726845009BFF35 /* Supporting Files */,
 				A665B1F51F726C89009BFF35 /* wViewController.h */,
 				A665B1F61F726C89009BFF35 /* wViewController.m */,
+				A665B1FA1F727BA3009BFF35 /* wkWebviewViewController.h */,
+				A665B1FB1F727BA3009BFF35 /* wkWebviewViewController.m */,
+				A665B1FC1F727BA3009BFF35 /* wkWebviewViewController.xib */,
 				A665B1F71F726C89009BFF35 /* wViewController.xib */,
+				A665B1FF1F727FEE009BFF35 /* WKWebViewEx.h */,
+				A665B2001F727FEE009BFF35 /* WKWebViewEx.m */,
 			);
 			path = fool100;
 			sourceTree = "<group>";
@@ -264,6 +277,7 @@
 				A665B1CC1F726845009BFF35 /* Assets.xcassets in Resources */,
 				A665B1F91F726C89009BFF35 /* wViewController.xib in Resources */,
 				A665B1CA1F726845009BFF35 /* Main.storyboard in Resources */,
+				A665B1FE1F727BA3009BFF35 /* wkWebviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +306,8 @@
 				A665B1C41F726845009BFF35 /* AppDelegate.m in Sources */,
 				A665B1F81F726C89009BFF35 /* wViewController.m in Sources */,
 				A665B1C11F726845009BFF35 /* main.m in Sources */,
+				A665B2011F727FEE009BFF35 /* WKWebViewEx.m in Sources */,
+				A665B1FD1F727BA3009BFF35 /* wkWebviewViewController.m in Sources */,
 				A665B1F41F726A6E009BFF35 /* UIViewEx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +544,7 @@
 				A665B1EB1F726846009BFF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A665B1EC1F726846009BFF35 /* Build configuration list for PBXNativeTarget "fool100Tests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +553,7 @@
 				A665B1EE1F726846009BFF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A665B1EF1F726846009BFF35 /* Build configuration list for PBXNativeTarget "fool100UITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +562,7 @@
 				A665B1F11F726846009BFF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

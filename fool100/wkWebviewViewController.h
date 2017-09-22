@@ -1,5 +1,5 @@
 //
-//  UIViewEx.h
+//  wkWebviewViewController.h
 //  fool100
 //
 //  Created by  on 9/20/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewEx : UIButton
+@interface wkWebviewViewController : UIViewController
 
 @end

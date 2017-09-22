@@ -22,10 +22,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gJ-Tm-0H1">
-                                <rect key="frame" x="164" y="294" width="98" height="58"/>
+                                <rect key="frame" x="100" y="294" width="162" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="touch me"/>
                                 <connections>
                                     <action selector="ontouchdown:" destination="BYZ-38-t0r" eventType="touchDown" id="p6v-AV-DNf"/>
                                     <action selector="ouTouchUpOutside:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="5qt-YK-iN2"/>

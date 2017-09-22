@@ -7,10 +7,12 @@
 //
 
 #import "wViewController.h"
+#import "wkWebviewViewController.h"
 
 @interface wViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *back;
 - (IBAction)ontouchinside:(id)sender;
+- (IBAction)onTouchWkwebview:(id)sender;
 
 @end
 
@@ -45,6 +47,11 @@
     [self dismissViewControllerAnimated:YES completion:^{
         
     }];
+}
+
+- (IBAction)onTouchWkwebview:(id)sender {
+    wkWebviewViewController* wkvc = [[wkWebviewViewController alloc] init];
+    [self showViewController:wkvc sender:NULL];
 }
 
 
